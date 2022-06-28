@@ -1,0 +1,252 @@
+/* #Color Pallette */
+:root {
+  --gold: #d5966c;
+  --black: #151515;
+  --dark-gray: #444444;
+  --white: #ffffff;
+}
+
+/* # Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* #Global Styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+p {
+  font-family: 'Outfit', sans-serif;
+}
+
+/* #Mobile First Page Styling */
+#page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 120px;
+  /* background-color: lightpink; */
+}
+main {
+  width: 375px;
+  height: 630px;
+  background-color: var(--white);
+}
+
+.hero-image-container {
+  width: 100%;
+  height: 240px;
+}
+
+.hero-image {
+  height: 100%;
+  object-fit: contain;
+}
+
+.hero-bottom {
+  width: 343px;
+  height: 390px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.hero-title {
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 55px;
+  text-transform: uppercase;
+}
+
+.hero-paragraph {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  color: var(--dark-gray);
+}
+
+button.our-location {
+  width: 260px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+
+button.our-location:hover .button-words {
+  background-color: var(--gold);
+}
+
+button.our-location:hover .button-icon {
+  background-color: var(--black);
+}
+
+.button-words {
+  font-family: 'Big Shoulders Display', cursive;
+  color: var(--white);
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 3.63636px;
+  text-transform: uppercase;
+  width: 204px;
+  height: 72px;
+  background-color: var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.button-icon {
+  width: 56px;
+  height: 72px;
+  background-color: var(--gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+section {
+  width: 375px;
+  height: 1605px;
+  margin: 0 auto;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.image-1-container {
+  width: 343px;
+  height: 320px;
+  margin-bottom: 9px;
+}
+
+.content-top-text {
+  width: 343px;
+  height: 223px;
+  display: flex;
+  flex-direction: column;
+}
+.content-top-text h2 {
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 45px;
+  color: var(--black);
+  text-transform: uppercase;
+}
+.content-top-text p {
+  margin-top: 21px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  color: var(--dark-gray);
+}
+
+.image-2-container {
+  width: 343px;
+  height: 480px;
+}
+
+.image-3-container {
+  width: 343px;
+  height: 200px;
+}
+
+.content-bottom-text {
+  width: 343px;
+  height: 293px;
+  background-color: var(--black);
+  padding: 47px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content-bottom-text h2 {
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 45px;
+  color: var(--white);
+  text-transform: uppercase;
+}
+.content-bottom-text p {
+  margin-top: 21px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  color: var(--white);
+}
+footer {
+  width: 375px;
+  height: 336px;
+  background-color: var(--black);
+  padding: 48px 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.modern-art-gallery {
+  width: 110.05px;
+  height: 40px;
+}
+footer h3 {
+  font-size: 20px;
+  color: white;
+}
+
+footer p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  color: var(--white);
+}
+
+.social-links {
+  width: 100px;
+  height: 20px;
+}
+
+/* #Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 437px 331px;
+  }
+
+  .hero-image-container {
+    width: 437px;
+    height: 700px;
+    z-index: 0;
+  }
+
+  .hero-bottom {
+    height: 700px;
+    margin-left: -48px;
+    z-index: 1;
+    justify-content: center;
+    gap: 48px;
+  }
+
+  .hero-title {
+    width: 330px;
+    font-size: 70px;
+    line-height: 65px;
+  }
+}
