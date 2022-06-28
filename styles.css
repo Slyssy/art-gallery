@@ -252,9 +252,10 @@ footer p {
 
   #content {
     width: 689px;
+    height: 1131px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 269px 107px 269px;
+    grid-template-columns: 269px 107px 280px;
     grid-template-rows: 400px 313px 396px;
     gap: 11px;
   }
@@ -264,6 +265,7 @@ footer p {
     grid-row: 1;
     width: 398px;
     height: 400px;
+    margin: 0;
   }
 
   .image-grid-1 {
@@ -308,5 +310,22 @@ footer p {
     grid-row: 3;
     width: 280px;
     height: 396px;
+  }
+
+  footer {
+    width: 768px;
+    height: 216px;
+    flex-direction: row;
+    padding: 56px 39px;
+  }
+
+  footer p {
+    width: 281px;
+    height: 104px;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: space-between;
   }
 }
