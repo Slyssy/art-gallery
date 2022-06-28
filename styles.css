@@ -256,7 +256,7 @@ footer p {
     height: 1131px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 269px 107px 280px;
+    grid-template-columns: 280px 107px 280px;
     grid-template-rows: 400px 313px 396px;
     gap: 11px;
   }
