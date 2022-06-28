@@ -249,4 +249,64 @@ footer p {
     font-size: 70px;
     line-height: 65px;
   }
+
+  #content {
+    width: 689px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 269px 107px 269px;
+    grid-template-rows: 400px 313px 396px;
+    gap: 11px;
+  }
+
+  .image-1-container {
+    grid-column: 2/4;
+    grid-row: 1;
+    width: 398px;
+    height: 400px;
+  }
+
+  .image-grid-1 {
+    width: 398px;
+    height: 400px;
+  }
+  .content-top-text {
+    grid-column: 1;
+    grid-row: 1;
+    width: 223px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .image-2-container {
+    grid-column: span 2;
+    grid-row: span 2;
+    width: 398px;
+    height: 720px;
+  }
+
+  .image-grid-2 {
+    width: 398px;
+    height: 720px;
+  }
+
+  .image-3-container {
+    grid-column: 3/4;
+    width: 280px;
+    height: 313px;
+  }
+
+  .image-grid-3 {
+    width: 280px;
+    height: 313px;
+  }
+
+  .content-bottom-text {
+    grid-column: 3/4;
+    grid-row: 3;
+    width: 280px;
+    height: 396px;
+  }
 }

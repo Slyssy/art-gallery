@@ -62,9 +62,17 @@
         </div>
       </main>
       <section id="content">
-        <div class="image-1-container">
-          <img src="./assets/mobile/image-grid-1.jpg" alt="" />
-        </div>
+        <picture class="image-1-container">
+          <source
+            media="(min-width: 768px"
+            srcset="/assets/tablet/image-grid-1.jpg"
+          />
+          <img
+            src="./assets/mobile/image-grid-1.jpg"
+            alt=""
+            class="image-grid-1"
+          />
+        </picture>
         <div class="content-top-text">
           <h2 class="sub-title">Your Day</h2>
           <h2 class="subtitle">at the Gallery</h2>
@@ -73,12 +81,28 @@
             our artists. Dive into the details of their creative process.
           </p>
         </div>
-        <div class="image-2-container">
-          <img src="./assets/mobile/image-grid-2.jpg" alt="" />
-        </div>
-        <div class="image-3-container">
-          <img src="./assets/mobile/image-grid-3.jpg" alt="" />
-        </div>
+        <picture class="image-2-container">
+          <source
+            media="(min-width: 768px"
+            srcset="/assets/tablet/image-grid-2.jpg"
+          />
+          <img
+            src="./assets/mobile/image-grid-2.jpg"
+            alt=""
+            class="image-grid-2"
+          />
+        </picture>
+        <picture class="image-3-container">
+          <source
+            media="(min-width: 768px"
+            srcset="/assets/tablet/image-grid-3.jpg"
+          />
+          <img
+            src="./assets/mobile/image-grid-3.jpg"
+            alt=""
+            class="image-grid-3"
+          />
+        </picture>
         <div class="content-bottom-text">
           <h2>Come & be inspired</h2>
           <p>
