@@ -30,8 +30,13 @@
   <body>
     <div id="page-container">
       <main class="hero">
+        <div class="black-box"></div>
         <div class="hero-image-container">
           <picture>
+            <source
+              media="(min-width:992px"
+              srcset="/assets/desktop/image-hero.jpg"
+            />
             <source
               media="(min-width: 768px"
               srcset="/assets/tablet/image-hero.jpg"
@@ -45,7 +50,8 @@
           </picture>
         </div>
         <div class="hero-bottom">
-          <h1 class="hero-title">Modern Art Gallery</h1>
+          <h1 class="hero-title">Modern Art Gal<span>lery</span></h1>
+          <div class="black-n"></div>
           <p class="hero-paragraph">
             The arts in the collection of the Modern Art Gallery all started
             from a spark of inspiration. Will these pieces inspire you? Visit us
@@ -64,7 +70,11 @@
       <section id="content">
         <picture class="image-1-container">
           <source
-            media="(min-width: 768px"
+            media="(min-width: 992px)"
+            srcset="/assets/desktop/image-grid-1.jpg"
+          />
+          <source
+            media="(min-width: 768px)"
             srcset="/assets/tablet/image-grid-1.jpg"
           />
           <img
@@ -83,6 +93,10 @@
         </div>
         <picture class="image-2-container">
           <source
+            media="(min-width: 992px)"
+            srcset="/assets/desktop/image-grid-2.jpg"
+          />
+          <source
             media="(min-width: 768px"
             srcset="/assets/tablet/image-grid-2.jpg"
           />
@@ -93,6 +107,10 @@
           />
         </picture>
         <picture class="image-3-container">
+          <source
+            media="(min-width: 992px)"
+            srcset="/assets/desktop/image-grid-3.jpg"
+          />
           <source
             media="(min-width: 768px"
             srcset="/assets/tablet/image-grid-3.jpg"

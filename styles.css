@@ -41,6 +41,13 @@ main {
   background-color: var(--white);
 }
 
+.black-box {
+  display: none;
+}
+
+.black-n {
+  display: none;
+}
 .hero-image-container {
   width: 100%;
   height: 240px;
@@ -329,4 +336,137 @@ footer p {
     display: flex;
     justify-content: space-between;
   }
+}
+/* #Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  main {
+    width: 1275px;
+    height: 800px;
+    grid-template-columns: 450px 540px 285px;
+    margin-left: -10%;
+  }
+
+  .black-box {
+    display: block;
+    width: 450px;
+    height: 800px;
+    background-color: var(--black);
+    grid-column: 1/2;
+    grid-row: 1;
+  }
+
+  .black-n {
+    display: block;
+    width: 15px;
+    height: 78px;
+    position: absolute;
+    top: 254px;
+    left: -492px;
+    background-color: var(--black);
+    opacity: 0.9;
+    z-index: 2;
+  }
+
+  .hero-image-container {
+    grid-template-columns: 2/3;
+    grid-row: 1;
+  }
+
+  .hero-bottom {
+    width: 285px;
+    height: 800px;
+    margin-top: -60px;
+    position: relative;
+  }
+  .hero-title {
+    width: 450px;
+    height: 176px;
+    font-size: 96px;
+    line-height: 88px;
+    position: absolute;
+    top: 250px;
+    left: -778px;
+    color: white;
+    opacity: 0.8;
+  }
+
+  .hero-title span {
+    color: black;
+  }
+
+  .hero-image-container {
+    width: 540px;
+    height: 800px;
+  }
+  .our-location {
+    margin-top: 60px;
+  }
+
+  .image-grid-1 {
+    width: 635px;
+    height: 400px;
+  }
+
+  #content {
+    width: 1110px;
+    height: 1150px;
+    grid-template-columns: 445px 160px 445px;
+    grid-template-rows: 400px 313px 377px;
+    gap: 30px;
+  }
+  .content-top-text {
+    width: 350px;
+    height: 280px;
+  }
+
+  .image-grid-2 {
+    width: 635px;
+    height: 720px;
+  }
+
+  .image-grid-3 {
+    width: 445px;
+    height: 313px;
+  }
+
+  .content-bottom-text {
+    width: 445px;
+    height: 377px;
+    padding: 48px;
+    justify-content: center;
+    gap: 32px;
+  }
+
+  .content-bottom-text h2 {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .content-bottom-text p {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  footer {
+    width: 1440px;
+    height: 244px;
+    padding: 80px 165px;
+  }
+
+  .modern-art-gallery {
+    width: 159.57px;
+    height: 58px;
+  }
+
+  footer p {
+    width: 430px;
+    height: 84px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  /* .social-links img {
+    width: 20px;
+    height: 20px;
+  } */
 }
