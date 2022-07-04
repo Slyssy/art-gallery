@@ -229,6 +229,102 @@ footer p {
   height: 20px;
 }
 
+/* ? Map page Mobile Styling */
+#location-page-container {
+  width: 100vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#map {
+  height: 550px;
+}
+
+.map-image-container {
+  width: 100vw;
+  height: 550px;
+  position: relative;
+}
+
+.map-image-container img {
+  width: 100%;
+  object-fit: cover;
+}
+
+button.our-location-btn {
+  width: 264px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: -2px;
+}
+
+button.our-location:hover .button-words {
+  background-color: var(--gold);
+}
+
+button.our-location:hover .button-icon {
+  background-color: var(--black);
+}
+
+section.king-street {
+  background-color: var(--black);
+  width: 100vw;
+  height: 493px;
+  padding: 48px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+section.king-street h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 45px;
+  color: white;
+  text-transform: uppercase;
+}
+
+section.king-street h2 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 32px;
+  color: var(--gold);
+  text-transform: uppercase;
+}
+
+section.king-street p {
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  color: white;
+}
+
+footer.location-footer {
+  width: 100vw;
+  height: 336px;
+  background-color: var(--gold);
+}
+
+footer.location-footer p {
+  color: var(--black);
+}
+
+footer.location-footer .social-links {
+  display: flex;
+  justify-content: space-between;
+}
 /* #Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   main {
