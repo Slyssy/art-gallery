@@ -156,6 +156,7 @@ section {
   color: var(--black);
   text-transform: uppercase;
 }
+
 .content-top-text p {
   margin-top: 21px;
   font-size: 18px;
@@ -283,6 +284,7 @@ section.king-street {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  z-index: 1;
 }
 
 section.king-street h1 {
