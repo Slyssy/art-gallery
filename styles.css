@@ -228,6 +228,9 @@ footer p {
 .social-links {
   width: 100px;
   height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* ? Map page Mobile Styling */
