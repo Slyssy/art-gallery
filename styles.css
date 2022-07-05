@@ -266,11 +266,11 @@ button.our-location-btn {
   left: -2px;
 }
 
-button.our-location:hover .button-words {
+button:hover .button-words {
   background-color: var(--gold);
 }
 
-button.our-location:hover .button-icon {
+button:hover .button-icon {
   background-color: var(--black);
 }
 
@@ -607,8 +607,56 @@ footer.location-footer .social-links {
     line-height: 28px;
   }
 
-  /* .social-links img {
-    width: 20px;
-    height: 20px;
+  /* #location-page-container {
+    height: 1252px;
   } */
+
+  #map {
+    width: 100vw;
+    max-width: 1440px;
+    height: 685px;
+  }
+  .map-image-container {
+    height: 685px;
+  }
+
+  .map-image-container img {
+    height: 685px;
+  }
+  button.our-location-btn {
+    left: 156px;
+  }
+
+  section.king-street {
+    height: 548px;
+    padding: 104px 165px;
+  }
+
+  .location-title {
+    grid-row: span 3;
+    width: 223px;
+    height: 100px;
+  }
+
+  section.king-street h1 {
+    font-size: 70px;
+    line-height: 70px;
+  }
+
+  section.king-street h2 {
+    font-size: 36px;
+  }
+
+  section.king-street.city-state-zip {
+    grid-column: 2/3;
+  }
+
+  section.king-street p {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  footer.location-footer {
+    height: 216px;
+    padding: 80px 165px;
+  }
 }
