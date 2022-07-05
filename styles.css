@@ -432,6 +432,52 @@ footer.location-footer .social-links {
     display: flex;
     justify-content: space-between;
   }
+
+  /* #location-page-container {
+    height: 1252px;
+  } */
+
+  #map {
+    width: 100vw;
+    height: 600px;
+  }
+  .map-image-container {
+    height: 600px;
+  }
+
+  .map-image-container img {
+    height: 600px;
+  }
+  button.our-location-btn {
+    left: 39px;
+  }
+
+  section.king-street {
+    height: 436px;
+    padding: 88px 39px;
+    display: grid;
+    grid-template-columns: 35% 65%;
+  }
+
+  .location-title {
+    grid-row: span 3;
+    width: 223px;
+    height: 100px;
+  }
+
+  section.king-street h1 {
+    font-size: 55px;
+    line-height: 50px;
+  }
+
+  section.king-street.city-state-zip {
+    grid-column: 2/3;
+  }
+
+  footer.location-footer {
+    height: 216px;
+    padding: 56px;
+  }
 }
 /* #Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
